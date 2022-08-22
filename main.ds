@@ -1,9 +1,113 @@
 sec[stone] {
     chain {
+        chiseled_deepslate[-1]>
+        deepslate_bricks[-1]>
+        cracked_deepslate_bricks[-1]>
+        cracked_deepslate_tiles[-1]
+    }/
+
+    chain {
+        deepslate_tiles[-1]>
+        cracked_deepslate_tiles[-1]>
+        deepslate[-1]
+    }/
+
+    chain {
+        pearlescent_froglight[-1]>
+        ochre_froglight[-1]>
+        verdant_froglight[-1]>
+        sea_lantern[-1]>
+        prismarine[-1]
+    }/
+
+    chain {
+        dark_prismarine[-1]>
+        prismarine[-1]
+    }/
+
+    chain {
+        prismarine_bricks[-1]>
+        prismarine[-1]>
+        cobblestone[-1]
+    }/
+
+    chain {
         :stone_bricks[-1]>
         :mossy_stone_bricks[-1]>
         :cracked_stone_bricks[-1]>
         :cobblestone[-1]
+    }/
+
+    chain {
+        deepslate_gold_ore[-1]>
+        gold_ore[-1]
+    }/
+
+    chain {
+        deepslate_iron_ore[-1]>
+        iron_ore[-1]
+    }/
+
+    chain {
+        deepslate_copper_ore[-1]>
+        copper_ore[-1]
+    }/
+
+    chain {
+        deepslate_diamond_ore[-1]>
+        diamond_ore[-1]>
+        stone[-1]
+    }/
+
+    chain {
+        deepslate_emerald_ore[-1]>
+        emerald_ore[-1]>
+        stone[-1]
+    }/
+
+    chain {
+        deepslate_redstone_ore[-1]>
+        redstone_ore[-1]>
+        stone[-1]
+    }/
+
+    chain {
+        deepslate_lapis_ore[-1]>
+        lapis_ore[-1]>
+        stone[-1]
+    }/
+
+    chain {
+        deepslate_coal_ore[-1]>
+        coal_ore[-1]>
+        stone[-1]
+    }/
+
+    chain {
+        redstone_lamp[-1]>
+        glowstone[-1]>
+        raw_iron_block[-1]
+    }/
+
+    chain {
+        oxidized_copper[-1]>
+        raw_copper_block[-1]>
+        copper_ore[-1]>
+        stone[-1]
+    }/
+
+    chain {
+        gold_block[-1]>
+        raw_gold_block[-1]>
+        gold_ore[-1]>
+        stone[-1]
+    }/
+
+    chain {
+        iron_block[-1]>
+        raw_iron_block[-1]>
+        iron_ore[-1]>
+        stone[-1]
     }/
 
     chain {
@@ -38,6 +142,38 @@ sec[stone] {
         cracked_polished_blackstone_bricks[-1]>
         blackstone[-1]>
         smooth_basalt[-1]
+    }/
+
+    chain {
+        polished_deepslate[-1]>
+        deepslate[-1]>
+        cobbled_deepslate[-1]>
+        tuff[-1]
+    }
+
+    chain {
+        nether_quartz_ore[-1]>
+        netherrack[-1]
+    }/
+
+    chain {
+        nether_gold_ore[-1]>
+        netherrack[-1]
+    }/
+
+    chain {
+        warped_hyphae[-1]>
+        crimson_hyphae[-1]>
+        nether_wart_block[-1]
+    }/
+
+    chain {
+        red_nether_bricks[-1]>
+        nether_bricks[-1]>
+        cracked_nether_bricks[-1]>
+        nether_wart_block[-1]>
+        netherrack[-1]>
+        raw_gold_block[-1]
     }/
 
     chain {
