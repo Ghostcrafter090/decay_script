@@ -1,0 +1,60 @@
+sec[stone] {
+    chain {
+        :stone_bricks[-1]>
+        :mossy_stone_bricks[-1]>
+        :cracked_stone_bricks[-1]>
+        :cobblestone[-1]
+    }/
+
+    chain {
+        :polished_granite[-1]>
+        :granite[-1]>
+        :diorite[-1]
+    }/
+    chain {
+        :polished_diroite[-1]>
+        :diorite[-1]>
+        :andesite[-1]
+    }/
+    chain {
+        :polished_andesite[-1]>
+        :andesite[-1]>
+        :cobblestone[-1]
+    }/
+
+    chain {
+        :polished_basalt[-1]>
+        :basalt[-1]>
+        :smooth_basalt[-1]>
+        :tuff[-1]
+    }/
+
+    chain {
+        :obsidian[-1]>
+        :crying_obsidian[-1]>
+        :budding_amethyst[-1]>
+        :amethyst_block[-1]>
+        :calcite[-1]>
+        :tuff[-1]>
+        :cobblestone[-1]
+    }/
+
+    chain {
+        :stone[-1]>
+        :cobblestone[-1]>
+        :mossy_cobblestone[-1]>
+        mca:loosegravel[-1]
+    }/
+};
+case mca:loosegravel[-1] {
+    chain {
+        :mossy_cobblestone[-1]>
+        mca:loosegravel[-1]
+    }/
+    run <stone>[-2]/
+};
+case mca:loosegravel[-1] {
+    chain {
+        mca:loosegravel[-2]>:air[-2]
+    }/
+};
