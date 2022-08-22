@@ -23,6 +23,24 @@ sec[stone] {
     }/
 
     chain {
+        gilded_blackstone[-1]>
+        blackstone[-1]
+    }/
+
+    chain {
+        chiseled_polished_blackstone[-1]>
+        polished_blackstone[-1]>
+        blackstone[-1]
+    }/
+
+    chain {
+        polished_blackstone_bricks[-1]>
+        cracked_polished_blackstone_bricks[-1]>
+        blackstone[-1]>
+        smooth_basalt[-1]
+    }/
+
+    chain {
         :polished_basalt[-1]>
         :basalt[-1]>
         :smooth_basalt[-1]>
@@ -46,6 +64,7 @@ sec[stone] {
         mca:loosegravel[-1]
     }/
 };
+
 case mca:loosegravel[-1] {
     chain {
         :mossy_cobblestone[-1]>
@@ -53,8 +72,10 @@ case mca:loosegravel[-1] {
     }/
     run <stone>[-2]/
 };
+
 case mca:loosegravel[-1] {
     chain {
-        mca:loosegravel[-2]>:air[-2]
+        mca:loosegravel[-2]>
+        :air[-2]
     }/
 };

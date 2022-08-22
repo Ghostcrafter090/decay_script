@@ -7,6 +7,12 @@ execute as @e[tag=decayPoint,type=marker] if block ~ ~-1 ~ minecraft:polished_di
 execute as @e[tag=decayPoint,type=marker] if block ~ ~-1 ~ minecraft:diorite run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:andesite replace
 execute as @e[tag=decayPoint,type=marker] if block ~ ~-1 ~ minecraft:polished_andesite run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:andesite replace
 execute as @e[tag=decayPoint,type=marker] if block ~ ~-1 ~ minecraft:andesite run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:cobblestone replace
+execute as @e[tag=decayPoint,type=marker] if block ~ ~-1 ~ minecraft:gilded_blackstone run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:blackstone replace
+execute as @e[tag=decayPoint,type=marker] if block ~ ~-1 ~ minecraft:chiseled_polished_blackstone run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:polished_blackstone replace
+execute as @e[tag=decayPoint,type=marker] if block ~ ~-1 ~ minecraft:polished_blackstone run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:blackstone replace
+execute as @e[tag=decayPoint,type=marker] if block ~ ~-1 ~ minecraft:polished_blackstone_bricks run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:cracked_polished_blackstone_bricks replace
+execute as @e[tag=decayPoint,type=marker] if block ~ ~-1 ~ minecraft:cracked_polished_blackstone_bricks run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:blackstone replace
+execute as @e[tag=decayPoint,type=marker] if block ~ ~-1 ~ minecraft:blackstone run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:smooth_basalt replace
 execute as @e[tag=decayPoint,type=marker] if block ~ ~-1 ~ minecraft:polished_basalt run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:basalt replace
 execute as @e[tag=decayPoint,type=marker] if block ~ ~-1 ~ minecraft:basalt run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:smooth_basalt replace
 execute as @e[tag=decayPoint,type=marker] if block ~ ~-1 ~ minecraft:smooth_basalt run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:tuff replace
@@ -29,6 +35,12 @@ execute as @e[tag=decayPoint,type=marker] if block ~ ~-1 ~ mca:loosegravel if bl
 execute as @e[tag=decayPoint,type=marker] if block ~ ~-1 ~ mca:loosegravel if block ~ ~-2 ~ minecraft:diorite run fill ~ ~-2 ~ ~ ~-2 ~ minecraft:andesite replace
 execute as @e[tag=decayPoint,type=marker] if block ~ ~-1 ~ mca:loosegravel if block ~ ~-2 ~ minecraft:polished_andesite run fill ~ ~-2 ~ ~ ~-2 ~ minecraft:andesite replace
 execute as @e[tag=decayPoint,type=marker] if block ~ ~-1 ~ mca:loosegravel if block ~ ~-2 ~ minecraft:andesite run fill ~ ~-2 ~ ~ ~-2 ~ minecraft:cobblestone replace
+execute as @e[tag=decayPoint,type=marker] if block ~ ~-1 ~ mca:loosegravel if block ~ ~-2 ~ minecraft:gilded_blackstone run fill ~ ~-2 ~ ~ ~-2 ~ minecraft:blackstone replace
+execute as @e[tag=decayPoint,type=marker] if block ~ ~-1 ~ mca:loosegravel if block ~ ~-2 ~ minecraft:chiseled_polished_blackstone run fill ~ ~-2 ~ ~ ~-2 ~ minecraft:polished_blackstone replace
+execute as @e[tag=decayPoint,type=marker] if block ~ ~-1 ~ mca:loosegravel if block ~ ~-2 ~ minecraft:polished_blackstone run fill ~ ~-2 ~ ~ ~-2 ~ minecraft:blackstone replace
+execute as @e[tag=decayPoint,type=marker] if block ~ ~-1 ~ mca:loosegravel if block ~ ~-2 ~ minecraft:polished_blackstone_bricks run fill ~ ~-2 ~ ~ ~-2 ~ minecraft:cracked_polished_blackstone_bricks replace
+execute as @e[tag=decayPoint,type=marker] if block ~ ~-1 ~ mca:loosegravel if block ~ ~-2 ~ minecraft:cracked_polished_blackstone_bricks run fill ~ ~-2 ~ ~ ~-2 ~ minecraft:blackstone replace
+execute as @e[tag=decayPoint,type=marker] if block ~ ~-1 ~ mca:loosegravel if block ~ ~-2 ~ minecraft:blackstone run fill ~ ~-2 ~ ~ ~-2 ~ minecraft:smooth_basalt replace
 execute as @e[tag=decayPoint,type=marker] if block ~ ~-1 ~ mca:loosegravel if block ~ ~-2 ~ minecraft:polished_basalt run fill ~ ~-2 ~ ~ ~-2 ~ minecraft:basalt replace
 execute as @e[tag=decayPoint,type=marker] if block ~ ~-1 ~ mca:loosegravel if block ~ ~-2 ~ minecraft:basalt run fill ~ ~-2 ~ ~ ~-2 ~ minecraft:smooth_basalt replace
 execute as @e[tag=decayPoint,type=marker] if block ~ ~-1 ~ mca:loosegravel if block ~ ~-2 ~ minecraft:smooth_basalt run fill ~ ~-2 ~ ~ ~-2 ~ minecraft:tuff replace

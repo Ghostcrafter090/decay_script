@@ -12,11 +12,15 @@ class process:
                 ya = chainf[i].split("[")[1].split("]")[0]
                 if chainf[i].split(":")[0] == "":
                     ba = "minecraft" + chainf[i]
+                elif chainf[i].split(":")[0] == chainf[i]:
+                    ba = "minecraft:" + chainf[i]
                 else:
                     ba = chainf[i]
                 yb = chainf[i + 1].split("[")[1].split("]")[0]
                 if chainf[i + 1].split(":")[0] == "":
                     bb = "minecraft" + chainf[i + 1]
+                elif chainf[i + 1].split(":")[0] == chainf[i + 1]:
+                    bb = "minecraft:" + chainf[i + 1]
                 else:
                     bb = chainf[i + 1]
                 if mod != False:
@@ -28,12 +32,16 @@ class process:
                 ya = chainf[i].split("[")[1].split("]")[0]
                 if chainf[i].split(":")[0] == "":
                     ba = "minecraft" + chainf[i]
+                elif chainf[i].split(":")[0] == chainf[i]:
+                    ba = "minecraft:" + chainf[i]
                 else:
                     ba = chainf[i]
                 yb = chainf[i + 1].split("[")[1].split("]")[0]
                 command = "execute as @e[tag=decayPoint,type=marker] "
                 if chainf[i + 1].split(":")[0] == "":
                     bb = "minecraft" + chainf[i + 1]
+                elif chainf[i + 1].split(":")[0] == chainf[i + 1]:
+                    bb = "minecraft:" + chainf[i + 1]
                 else:
                     bb = chainf[i + 1]
                 if mod != False:
@@ -44,6 +52,8 @@ class process:
                     yc = ifn.split("[")[1].split("]")[0]
                     if ifn.split(":")[0] == "":
                         bc = "minecraft" + ifn
+                    elif ifn.split(":")[0] == ifn:
+                        bc = "minecraft:" + ifn
                     else:
                         bc = ifn
                     command = command + "if block ~ ~" + yc + " ~ " + bc.split("[")[0] + " "
